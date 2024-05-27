@@ -1,0 +1,8 @@
+"TiMe DoEsN't HeAl AnYtHiNg It JuSt TeAcHeS yOu HoW tO lIvE wItH pAiN."
+
+All steps to take github on your PC : 
+    {S1} : git clone <repository - link>
+    {S2} : git status
+    {S3} : git add <filename>
+    {S4} : git commit -m"With some message"
+    {S5} : git push
