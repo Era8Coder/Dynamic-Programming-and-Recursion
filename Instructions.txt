@@ -2,6 +2,7 @@
 
 All steps to take github on your PC : 
     {S1} : git clone <repository - link>
+    // Don't Forget to change the Directory
     {S2} : git status
     {S3} : git add <filename>
     {S4} : git commit -m"With some message"
