@@ -1,6 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// <-:-> Below One is the Recursive Code <-:->
+int help(vector<int> &coins, int target, int n){
+    if(target == 0) return 0;
+    if(target < 0 || n<0){return INT_MAX;}
+
+    int take = help(coins, target-coins[n], n);         // That is taken it
+    int notTake = help(coins, target, n-1);      // That is not taken
+
+    if(take != INT_MAX){
+        take = 1 + take;
+    }
+
+    return min(take, notTake);
+}
+
 int coin_change(vector<int> &coins, int amount){
     // Initialisation of DP vector
     vector<int> dp(amount+1, INT_MAX);      // Here we are basically creating an array to store how many coins will be needed to make the amount at index "idx"
