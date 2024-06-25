@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+                    /*
+                        Number of Variables changing = That much dimension of Dp {Dynamic Array}       
+                                    -->> Here i,m,n were varying <<--
+                    */
 int solve(vector<pair<int,int>> &vp, int m, int n, int i, vector<vector<vector<int>>> &dp) {
     int sz = vp.size();
     if (i == sz || m < 0 || n < 0) {
