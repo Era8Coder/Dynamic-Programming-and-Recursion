@@ -224,14 +224,3 @@ plt.show()
 plt.savefig('scat.png')
 
 
-"""
-Covid modelling is an interesting and a relevant problem. 
-You can read about Covid modelling and simulation from here:
-https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
-This code is inspired by:
-https://www.hackster.io/pepis/animated-sir-model-for-coronavirus-spread-72c700
-            -- Modified By IIT Delhi's Professor But I want world to Get Exposure of it :)
-        -- That's How IITIAN Professor's become Gr8 ;)
-"""
-
-
